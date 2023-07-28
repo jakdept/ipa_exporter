@@ -17,5 +17,23 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# common backup files
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+
 # Go workspace file
 go.work
+
+# env files
+.env
+.envrc
+
+# some other stuff
+/*.json
+/testdata/cache/
+/cache/
+/secrets.yaml
+/registry-secrets.yaml
